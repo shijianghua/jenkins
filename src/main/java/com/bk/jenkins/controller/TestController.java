@@ -22,7 +22,7 @@ public class TestController {
 
     @GetMapping("test")
     public String test(@RequestParam("name") String name){
-        return "你好：" + name;
+        return "你好----jar：" + name;
     }
 
 }
